@@ -7,6 +7,9 @@ return [
     'siteDescription' => 'This site is a personal blog and a portfolia of Georgi\'s work!',
     'siteAuthor' => 'Georgi Kurian',
     
+    'build' => [
+        'destination' => 'docs',
+    ],
     // collections
     'collections' => [
         'posts' => [
