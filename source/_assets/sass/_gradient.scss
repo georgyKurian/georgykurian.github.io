@@ -1,0 +1,30 @@
+.wavyBackground { 
+    background: rgba(0,159,170,0.8);
+    /*background: -moz-radial-gradient(right, ellipse cover, rgba(0,159,170,0.8) 40%, rgba(0,159,170,1) 60%);
+    background: -webkit-gradient(radial, right center, 0px, right center, 100%, color-stop(40%, rgba(0,159,170,0.8)), color-stop(60%, rgba(0,159,170,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,159,170,0.8) 40%, rgba(0,159,170,1) 53%);
+    background: -o-radial-gradient(right, ellipse cover, rgba(0,159,170,0.8) 40%, rgba(0,159,170,1) 60%);
+    background: -ms-radial-gradient(right, ellipse cover, rgba(0,159,170,0.8) 40%, rgba(0,159,170,1) 60%);*/
+    background: radial-gradient(ellipse at right, rgba(0,159,170,0.8) 40%, rgba(0,159,170,1) 60%);
+    color:#ffffff;
+}
+
+.darkBlueGradient{
+    background: rgb(46,44,73);
+    background: linear-gradient(315deg, rgba(46,44,73,1) 0%, rgba(20,44,50,1) 100%);
+}
+
+.darkBlueGradient{
+    background: rgb(46,44,73);
+    background: linear-gradient(315deg, rgba(46,44,73,1) 0%, rgba(20,44,50,1) 100%);
+}
+
+.greenGradient{
+    background: #209077;
+    background:linear-gradient(-45deg, #209077 0%, #1ae28a 100%);
+}
+
+.whiteGradient{
+    background: rgb(238,238,238);
+    background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(232,232,232,1) 100%);
+}

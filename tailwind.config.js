@@ -40,7 +40,9 @@ module.exports = {
   variants: {
     borderRadius: ['responsive', 'focus'],
     borderWidth: ['responsive', 'active', 'focus'],
-    width: ['responsive', 'focus']
+    width: ['responsive', 'focus'],
+    opacity: ['responsive', 'hover', 'focus'],
+    padding: ['responsive', 'hover', 'focus'],
   },
   plugins: [
     function({ addUtilities }) {

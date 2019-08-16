@@ -35,29 +35,35 @@
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 </head>
 
-<body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-    <header class="flex items-center py-4" role="banner">
-        <div class="container flex items-center border-b h-24 max-w-6xl mx-auto px-4 lg:px-8">
-            <div class="flex felx-1 items-center">
-                <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                    <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
-                </a>
-            </div>
+<body class="flex flex-col justify-between bg-top bg-cover min-h-screen bg-orange-700 text-gray-800 leading-normal font-sans" style="background-image: url('/assets/img/low-poly41.svg')">
+    <header class="fixed z-40 w-full md:static" role="banner" >
+        <div class="relative">
+            <div class="container flex items-center px-4 max-w-6xl mx-auto md:py-4 lg:px-8">
+                <div class="flex felx-1 items-center">
+                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
+                        <img class="h-8 md:h-10 mr-3 text-gray-100" src="/assets/img/logo.svg"
+                            alt="{{ $page->siteName }} logo" />
+                    </a>
+                </div>
 
-            <div id="vue-search" class="flex flex-auto justify-end items-center">
-                <search></search>
-            </div>
-            <div class="flex felx-1">
-                @include('_nav.menu')
+                <div id="vue-search" class="flex flex-auto justify-end items-center">
+                    <search></search>
+                </div>
+                <div class="flex felx-1">
+                    @include('_nav.menu')
 
-                @include('_nav.menu-toggle')
+                    @include('_nav.menu-toggle')
+                </div>
+            </div>
+            <div>
+                @yield('extra-header')
             </div>
         </div>
     </header>
 
     @include('_nav.menu-responsive')
 
-    <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
+    <main role="main" class="flex-auto w-full">
         @yield('body')
     </main>
 
@@ -66,11 +72,8 @@
             <li class="md:mr-2">
                 &copy; Georgi</a> {{ date('Y') }}.
             </li>
-
             <li>
-                Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind
-                    CSS</a>.
+                Free Vector Design by: <a href="https://www.vecteezy.com">www.Vecteezy.com</a>
             </li>
         </ul>
     </footer>
