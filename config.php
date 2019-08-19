@@ -8,7 +8,7 @@ return [
     'siteAuthor' => 'Georgi Kurian',
     
     'build' => [
-        'destination' => 'docs',
+        //'destination' => 'docs',
     ],
     // collections
     'collections' => [
@@ -26,6 +26,12 @@ return [
             },
         ],
     ],
+
+    'getjsondata' => function ($page, $path) {
+        $jsonBytes = file_get_contents('data/'.$path);
+        $data = json_decode($jsonBytes, true);
+        return $data;
+    },
 
     // helpers
     'getDate' => function ($page) {

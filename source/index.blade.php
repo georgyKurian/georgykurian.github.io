@@ -24,142 +24,39 @@
 </div>
 
 <!-- Timeline -->
-<div class="flex whiteGradient">
-    <div class="container flex max-w-4xl mx-auto py-20 px-6 md:py-16 text-gray-800">
-        <div class="relative w-full my-0 mx-auto">
-            <div class="absolute inset-y-0  w-3 h-full bg-gray-800 z-0" style="left:50%;">&nbsp;</div>
-
-            <div class="flex p-3 flex-row-reverse">
-                <div class="w-1/2">
-                    <div class="rounded-lg p-4 ml-7 bg-gray-800 text-gray-100">
-                        <a href="https://www.lambtoncollege.ca/Applied-Research/" target="_blank">
-                            <h4 class="text-gray-100">Worksitesafety Compliance Center</h4>
-                        </a>
-                        <p>Full Stack developer</p>
-                    </div>
-                </div>
-                <div class="-mr-6">
-                    <div
-                        class="my-auto relative z-10 rounded-full h-8 w-8 flex items-center justify-center bg-gray-100 border-0 bg-gray-800 ">
-                        &nbsp;</div>
-                </div>
-            </div>
-
-            <div class="flex p-3 flex-row">
-                <div class="w-1/2">
-                    <div class="rounded-lg p-4 mr-7 bg-gray-800 text-gray-100">
-                        <a href="https://www.lambtoncollege.ca/Applied-Research/" target="_blank">
-                            <h4 class="text-gray-100">Lambton Applied Research</h4>
-                        </a>
-                        <p>Full Stack developer</p>
-                    </div>
-                </div>
-                <div class="-ml-6">
-                    <div
-                        class="my-auto relative z-10 rounded-full h-8 w-8 flex items-center justify-center bg-gray-100 border-0 bg-gray-800 ">
-                        &nbsp;</div>
-                </div>
-            </div>
-
-            <div class="flex p-3 flex-row-reverse">
-                <div class="w-1/2">
-                    <div class="rounded-lg p-4 ml-7 bg-gray-800 text-gray-100">
-                        <a href="https://www.hcltech.com/" target="_blank">
-                            <h4 class="text-gray-100">HCL Tech</h4>
-                        </a>
-                        <p>Full Stack Developer</p>
-                    </div>
-                </div>
-                <div class="-mr-6">
-                    <div
-                        class="my-auto relative z-10 rounded-full h-8 w-8 flex items-center justify-center bg-gray-100 border-0 bg-gray-800 ">
-                        &nbsp;</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+@component('_components.timeline')
+@endcomponent
 
 <div class="flex whiteGradient">
     <div class="container flex flex-wrap max-w-5xl mx-auto py-20 px-6 md:py-16 text-gray-800">
-        <div class="w-1/3 bg-gray-100 m-2 rounded overflow-hidden shadow-lg">
-            <div class="w-full h-1 bg-green-500"></div>
-            <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                    perferendis eaque, exercitationem praesentium nihil.
-                </p>
-                <div>
-                    <span
-                        class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#laravel</span>
-                    <span
-                        class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#vue.js</span>
-                    <span
-                        class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#postgres</span>
-                </div>
-            </div>
-            <div class="flex px-6 py-4">
-                <a href="" class="flex-1"><img class="mx-auto" src="assets/img/GitHub-Mark-32px.png" alt="GitHub"></a>
-                <a href="" class="flex-1 text-center">DEMO</a>
-            </div>
-        </div>
-        <div class="w-1/3 bg-gray-100 m-2 rounded overflow-hidden shadow-lg">
-            <div class="w-full h-1 bg-green-500"></div>
-            <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                    perferendis eaque, exercitationem praesentium nihil.
-                </p>
-            </div>
-            <div class="px-6 py-4">
-                <span
-                    class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#laravel</span>
-                <span
-                    class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#vue.js</span>
-                <span
-                    class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#postgres</span>
-            </div>
-        </div>
-        <div class="w-1/3 bg-gray-100 m-2 rounded overflow-hidden shadow-lg">
-            <div class="w-full h-1 bg-green-500"></div>
-            <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                    perferendis eaque, exercitationem praesentium nihil.
-                </p>
-            </div>
-            <div class="px-6 py-4">
-                <span
-                    class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#laravel</span>
-                <span
-                    class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#vue.js</span>
-                <span
-                    class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#postgres</span>
-            </div>
-        </div>
+        @for($i = 1; $i < 5; $i++) <div class="w-1/3 m-auto">
+            @component('_components.project')
+            @slot('index')
+            {{ $i }}
+            @endslot
+            @endcomponent
     </div>
+    @endfor
+</div>
 </div>
 
 <!-- Skill -->
+<?php phpinfo(); ?>
 <div class="flex whiteGradient">
     <div class="container flex flex-wrap max-w-5xl mx-auto py-20 px-6 md:py-16 text-gray-800">
-        <div class="max-w-sm w-full lg:max-w-full lg:flex rounded-l-full overflow-hidden shadow-lg">
-            <div class="h-48 lg:h-auto lg:w-48 bg-blue-500 text-center overflow-hidden shadow-lg">
-                <img class="m-auto my-auto" src="assets/img/GitHub-Mark-32px.png" />
-            </div>
-            <div
-                class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div class="mb-8 flex flex-wrap">
-
-                    <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
-                    <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
-                </div>
-            </div>
-        </div>
+        @component('_components.tech-stack',['skills' => $page->getjsondata('my_skills.json')->database ])
+        @slot('svg_icon')
+        <svg class="ml-auto text-white fill-current" height="35" width="35" viewBox="0 0 800 1000"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M384 960C171.969 960 0 902.625 0 832c0-38.625 0-80.875 0-128 0-11.125 5.562-21.688 13.562-32C56.375 727.125 205.25 768 384 768s327.625-40.875 370.438-96c8 10.312 13.562 20.875 13.562 32 0 37.062 0 76.375 0 128C768 902.625 596 960 384 960zM384 704C171.969 704 0 646.625 0 576c0-38.656 0-80.844 0-128 0-6.781 2.562-13.375 6-19.906l0 0C7.938 424 10.5 419.969 13.562 416 56.375 471.094 205.25 512 384 512s327.625-40.906 370.438-96c3.062 3.969 5.625 8 7.562 12.094l0 0c3.438 6.531 6 13.125 6 19.906 0 37.062 0 76.344 0 128C768 646.625 596 704 384 704zM384 448C171.969 448 0 390.656 0 320c0-20.219 0-41.594 0-64 0-20.344 0-41.469 0-64C0 121.34400000000005 171.969 64 384 64c212 0 384 57.344 384 128 0 19.969 0 41.156 0 64 0 19.594 0 40.25 0 64C768 390.656 596 448 384 448zM384 128c-141.375 0-256 28.594-256 64s114.625 64 256 64 256-28.594 256-64S525.375 128 384 128z" />
+        </svg>
+        <span class="ml-3 mr-auto my-auto font-medium">DATABASES</span>
+        @endslot
+        @slot('tech')
+        
+        @endslot
+        @endcomponent
     </div>
 </div>
 
