@@ -16,25 +16,33 @@
   "server-side": [
     {
       "name": "PHP",
+      "frameworks": ["Laravel", "Symfony", "Wordpress"],
       "percentage": "95%"
     },
     {
-      "name": "Node.js",
+      "name": "Node",
+      "frameworks": ["Express.js"],
       "percentage": "65%"
     },
     {
       "name": "Java",
+      "frameworks": ["Grails", "Hibernate"],
       "percentage": "70%"
     }
   ],
   "front-end": [
     {
       "name": "Vue",
+      "frameworks": [],
       "percentage": "70%"
     },
     {
       "name": "React",
+      "frameworks": ["Next.js"],
       "percentage": "60%"
+    },
+    {
+      "name": "Webpack"
     }
   ],
   "server-side-frameworks": [
