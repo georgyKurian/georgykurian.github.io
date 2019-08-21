@@ -13,6 +13,74 @@
       "percentage": "50%"
     }
   ],
-  "server-side": [],
-  "front-end": []
+  "server-side": [
+    {
+      "name": "PHP",
+      "percentage": "95%"
+    },
+    {
+      "name": "Node.js",
+      "percentage": "65%"
+    },
+    {
+      "name": "Java",
+      "percentage": "70%"
+    }
+  ],
+  "front-end": [
+    {
+      "name": "Vue",
+      "percentage": "70%"
+    },
+    {
+      "name": "React",
+      "percentage": "60%"
+    }
+  ],
+  "server-side-frameworks": [
+    {
+      "name": "Laravel",
+      "percentage": "70%"
+    },
+    {
+      "name": "Express.js",
+      "percentage": "60%"
+    },
+    {
+      "name": "Grails",
+      "percentage": "60%"
+    }
+  ],
+  "tools": [
+    {
+      "name": "GIT",
+      "percentage": "70%"
+    },
+    {
+      "name": "VS Code",
+      "percentage": "60%"
+    },
+    {
+      "name": "Postman",
+      "percentage": "60%"
+    }
+  ],
+  "cloud-services": [
+    {
+      "name": "AWS",
+      "percentage": "70%"
+    },
+    {
+      "name": "Bugsnag",
+      "percentage": "70%"
+    },
+    {
+      "name": "Microsoft 365",
+      "percentage": "60%"
+    },
+    {
+      "name": "Google API",
+      "percentage": "60%"
+    }
+  ]
 }
