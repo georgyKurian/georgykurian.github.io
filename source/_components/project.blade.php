@@ -1,22 +1,21 @@
-<div class="bg-gray-100 m-2 rounded overflow-hidden shadow-lg">
-    <div class="w-full h-1 bg-green-500"></div>
-    <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">{{ $index }}The Coldest Sunset</div>
-        <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-            perferendis eaque, exercitationem praesentium nihil.
-        </p>
-        <div>
-            <span
-                class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#laravel</span>
-            <span
-                class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#vue.js</span>
-            <span
-                class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#postgres</span>
+<div class="w-full m-2 bg-white flex shadow-lg rounded-lg border border-gray-300 overflow-hidden">
+    <div class="w-3/12 h-100 bg-orange-700"></div>
+    <div class="px-3 py-3 flex">
+        <div class="">
+            <div class="font-bold text-xl mb-2">{{ $project['title'] }}</div>
+            <p class="text-gray-700 text-base">{{ $project['description']}}</p>
+            <div>
+                @if ($project['techs'])
+                @foreach ($project['techs'] as $tech)
+                <span
+                    class="inline-block mx-px mb-px bg-gray-300 rounded-full px-3 py-px  text-sm font-semibold text-gray-700">#{{ $tech }}</span>
+                @endforeach
+                @endif
+            </div>
         </div>
     </div>
-    <div class="flex px-6 py-4">
-        <a href="" class="flex-1"><img class="mx-auto" src="assets/img/GitHub-Mark-32px.png" alt="GitHub"></a>
-        <a href="" class="flex-1 text-center">DEMO</a>
+    <div class="flex flex-col px-6 py-4">
+        <a href="" class="flex-1"><img class="my-auto mx-auto" src="assets/img/GitHub-Mark-32px.png" alt="GitHub"></a>
+        <a href="" class="flex-1 text-center"><img class="my-auto mx-auto" src="assets/img/GitHub-Mark-32px.png" alt="GitHub"> </a>
     </div>
 </div>

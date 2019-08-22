@@ -45,20 +45,6 @@
       "name": "Webpack"
     }
   ],
-  "server-side-frameworks": [
-    {
-      "name": "Laravel",
-      "percentage": "70%"
-    },
-    {
-      "name": "Express.js",
-      "percentage": "60%"
-    },
-    {
-      "name": "Grails",
-      "percentage": "60%"
-    }
-  ],
   "tools": [
     {
       "name": "GIT",
