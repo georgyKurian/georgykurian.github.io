@@ -36,7 +36,7 @@
             gtag('config', 'UA-80050463-3');
     </script>
     
-    <link rel="stylesheet" href="/assets/build/css/main.css?id=693b6441a4a4b6cc44ac">
+    <link rel="stylesheet" href="/assets/build/css/main.css?id=cb0b304938fd247b4dc3">
 </head>
 
 <body class="flex flex-col justify-between bg-top bg-cover min-h-screen bg-orange-700 text-gray-800 leading-normal font-sans" style="background-image: url('/assets/img/low-poly41.svg')">
@@ -126,79 +126,77 @@
     </ul>
 </nav>
 
-    <main role="main" class="w-full overflow-hidden flex-auto">
-        <h1>Contact</h1>
-
-<p class="mb-8">
-    Static sites are unable to handle form submissions. However, there are third-party services, like Tighten’s <a href="https://fieldgoal.io" title="FieldGoal">FieldGoal</a>, which can accept the form submission, email you the result, and redirect back to a thank you page.
-</p>
-
-<form action="/contact" class="mb-12">
-    <div class="flex flex-wrap mb-6 -mx-3">
-        <div class="w-full md:w-1/2 mb-6 md:mb-0 px-3">
-            <label class="block mb-2 text-gray-800 text-sm font-semibold" for="contact-name">
-                Name
+    <main role="main" class="w-full overflow-hidden flex-auto whiteGradient">
+        <div class="container flex flex-wrap justify-center max-w-5xl mx-auto py-20 px-6 md:py-16 text-gray-800">
+    <h1>Contact</h1>
+    
+    <p class="mb-8">
+        Static sites are unable to handle form submissions. However, there are third-party services, like Tighten’s <a href="https://fieldgoal.io" title="FieldGoal">FieldGoal</a>, which can accept the form submission, email you the result, and redirect back to a thank you page.
+    </p>
+    
+    <form action="/contact" class="mb-12">
+        <div class="flex flex-wrap mb-6 -mx-3">
+            <div class="w-full md:w-1/2 mb-6 md:mb-0 px-3">
+                <label class="block mb-2 text-gray-800 text-sm font-semibold" for="contact-name">
+                    Name
+                </label>
+    
+                <input
+                    type="text"
+                    id="contact-name"
+                    placeholder="Jane Doe"
+                    name="name"
+                    class="block w-full border shadow rounded-lg outline-none mb-2 px-4 py-3"
+                    required
+                >
+            </div>
+    
+            <div class="w-full px-3 md:w-1/2">
+                <label class="block text-gray-800 text-sm font-semibold mb-2" for="contact-email">
+                    Email Address
+                </label>
+    
+                <input
+                    type="email"
+                    id="contact-email"
+                    placeholder="email@domain.com"
+                    name="email"
+                    class="block w-full border shadow rounded-lg outline-none mb-2 px-4 py-3"
+                    required
+                >
+            </div>
+        </div>
+    
+        <div class="w-full mb-12">
+            <label class="block text-gray-800 text-sm font-semibold mb-2" for="contact-message">
+                Message
             </label>
-
-            <input
-                type="text"
-                id="contact-name"
-                placeholder="Jane Doe"
-                name="name"
-                class="block w-full border shadow rounded-lg outline-none mb-2 px-4 py-3"
+    
+            <textarea
+                id="contact-message"
+                rows="4"
+                name="message"
+                class="block w-full border shadow rounded-lg outline-none appearance-none mb-2 px-4 py-3"
+                placeholder="A lovely message here."
                 required
+            ></textarea>
+        </div>
+    
+        <div class="flex justify-end w-full">
+            <input
+                type="submit"
+                value="Submit"
+                class="block bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold leading-snug tracking-wide uppercase shadow rounded-lg cursor-pointer px-6 py-3"
             >
         </div>
-
-        <div class="w-full px-3 md:w-1/2">
-            <label class="block text-gray-800 text-sm font-semibold mb-2" for="contact-email">
-                Email Address
-            </label>
-
-            <input
-                type="email"
-                id="contact-email"
-                placeholder="email@domain.com"
-                name="email"
-                class="block w-full border shadow rounded-lg outline-none mb-2 px-4 py-3"
-                required
-            >
-        </div>
-    </div>
-
-    <div class="w-full mb-12">
-        <label class="block text-gray-800 text-sm font-semibold mb-2" for="contact-message">
-            Message
-        </label>
-
-        <textarea
-            id="contact-message"
-            rows="4"
-            name="message"
-            class="block w-full border shadow rounded-lg outline-none appearance-none mb-2 px-4 py-3"
-            placeholder="A lovely message here."
-            required
-        ></textarea>
-    </div>
-
-    <div class="flex justify-end w-full">
-        <input
-            type="submit"
-            value="Submit"
-            class="block bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold leading-snug tracking-wide uppercase shadow rounded-lg cursor-pointer px-6 py-3"
-        >
-    </div>
-</form>
+    </form>
+</div>
     </main>
 
-    <footer class="w-full overflow-hidden bg-white text-center text-sm mt-12 py-4" role="contentinfo">
+    <footer class="w-full overflow-hidden border-t-2 bg-gray-800 text-gray-500 text-center pt-12 py-4" role="contentinfo">
         <ul class="flex flex-col md:flex-row justify-center list-reset">
-            <li class="md:mr-2">
-                &copy; Georgi</a> 2019.
-            </li>
-            <li>
-                Free Vector Design by: <a href="https://www.vecteezy.com">www.Vecteezy.com</a>
-            </li>
+            <li class="text-xs">&copy;Georgi</a> 2019</li>
+            <li></li>
         </ul>
     </footer>
 

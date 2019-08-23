@@ -2,217 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
   <loc>https://georgi.ca/blog/categories/configuration</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/blog/categories/feature</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/blog/custom-404-page</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/blog/customizing-your-site</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/blog/fuse-search</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/blog/getting-started</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/blog/mailchimp-newsletters</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/blog/my-first-blog-post</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/about</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\build\css/main.css</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\build\js/main.js</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\build\js/main.js.map</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\build/mix-manifest.json</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\images/georgi.jpg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\images/jigsaw.png</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/15490.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/GitHub-Mark-32px.png</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/about.png</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/background-color.jpg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/curvy.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/hero-divider.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/iconfinder_database_298757.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/iconfinder_server_103333.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/iconfinder_server_298866.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/logo-2.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/logo-large.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/logo.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img\logos/github.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img\logos/logo-mysql.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/low-poly4.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/magnifying-glass.svg</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/newsletter.png</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/post-cover-image-1.png</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://georgi.ca/assets\img/post-cover-image-2.png</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/blog</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/blog/2</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/blog/feed.atom</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/contact</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/favicon-16x16.png</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/favicon-32x32.png</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/favicon-96x96.png</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca/index.blade.cop</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://georgi.ca</loc>
-  <lastmod>2019-08-23T03:07:30+00:00</lastmod>
+  <lastmod>2019-08-23T19:49:56+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>
