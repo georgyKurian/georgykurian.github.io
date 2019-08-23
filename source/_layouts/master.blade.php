@@ -68,18 +68,14 @@
 
     @include('_nav.menu-responsive')
 
-    <main role="main" class="w-full overflow-hidden flex-auto">
+    <main role="main" class="w-full overflow-hidden flex-auto whiteGradient">
         @yield('body')
     </main>
 
-    <footer class="w-full overflow-hidden bg-white text-center text-sm mt-12 py-4" role="contentinfo">
+    <footer class="w-full overflow-hidden border-t-2 bg-gray-800 text-gray-500 text-center pt-12 py-4" role="contentinfo">
         <ul class="flex flex-col md:flex-row justify-center list-reset">
-            <li class="md:mr-2">
-                &copy; Georgi</a> {{ date('Y') }}.
-            </li>
-            <li>
-                Free Vector Design by: <a href="https://www.vecteezy.com">www.Vecteezy.com</a>
-            </li>
+            <li class="text-xs">&copy;Georgi</a> {{ date('Y') }}</li>
+            <li></li>
         </ul>
     </footer>
 

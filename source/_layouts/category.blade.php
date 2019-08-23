@@ -8,19 +8,21 @@
 @endpush
 
 @section('body')
-    <h1>{{ $page->title }}</h1>
-
-    <div class="text-2xl border-b border-blue-200 mb-6 pb-10">
-        @yield('content')
+    <div class="container flex flex-wrap justify-center max-w-5xl mx-auto py-20 px-6 md:py-16 text-gray-800 ">
+        <h1>{{ $page->title }}</h1>
+    
+        <div class="text-2xl border-b border-blue-200 mb-6 pb-10">
+            @yield('content')
+        </div>
+    
+        @foreach ($page->posts($posts) as $post)
+            @include('_components.post-preview-inline')
+    
+            @if (! $loop->last)
+                <hr class="w-full border-b mt-2 mb-6">
+            @endif
+        @endforeach
+    
+        @include('_components.newsletter-signup')
     </div>
-
-    @foreach ($page->posts($posts) as $post)
-        @include('_components.post-preview-inline')
-
-        @if (! $loop->last)
-            <hr class="w-full border-b mt-2 mb-6">
-        @endif
-    @endforeach
-
-    @include('_components.newsletter-signup')
 @stop

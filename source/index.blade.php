@@ -26,12 +26,10 @@
 <!-- Timeline -->
 <div class="flex whiteGradient">
     <div class="container flex flex-wrap justify-center max-w-5xl mx-auto py-20 px-6 md:py-16 text-gray-800 ">
-        @foreach ($page->getjsondata('my_work_experience.json') as $experience)
         @component('_components.timeline',[
-        'experience' => $experience
+            'experience' => $page->getjsondata('my_work_experience.json')
         ])
         @endcomponent
-        @endforeach
     </div>
 </div>
 
@@ -60,10 +58,4 @@
     </div>
 </div>
 
-
-<div class="">
-    <div class="container max-w-4xl mx-auto py-20 px-6 md:py-16 lg:py-20 xlg:py-24 text-gray-200">
-        <h3>Something...</h3>
-    </div>
-</div>
 @stop
