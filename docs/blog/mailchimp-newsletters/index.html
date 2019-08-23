@@ -15,7 +15,10 @@
     <title>Georgi | Mailchimp Newsletters</title>
 
     <link rel="home" href="https://georgi.ca">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
     <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="Georgi Atom Feed">
 
         <meta property="og:title" content="Mailchimp Newsletters" />
@@ -33,25 +36,26 @@
             gtag('config', 'UA-80050463-3');
     </script>
     
-    <link rel="stylesheet" href="/assets/build/css/main.css?id=db4a99770cd6b0a23297">
+    <link rel="stylesheet" href="/assets/build/css/main.css?id=693b6441a4a4b6cc44ac">
 </head>
 
 <body class="flex flex-col justify-between bg-top bg-cover min-h-screen bg-orange-700 text-gray-800 leading-normal font-sans" style="background-image: url('/assets/img/low-poly41.svg')">
-    <header class="fixed z-40 w-full md:static" role="banner" >
+    <header class="w-full overflow-hidden" role="banner" >
         <div class="relative">
-            <div class="container flex items-center px-4 max-w-6xl mx-auto md:py-4 lg:px-8">
-                <div class="flex felx-1 items-center">
-                    <a href="/" title="Georgi home" class="inline-flex items-center">
-                        <img class="h-8 md:h-10 mr-3 text-gray-100" src="/assets/img/logo.svg"
-                            alt="Georgi logo" />
-                    </a>
-                </div>
-
-                <div id="vue-search" class="flex flex-auto justify-end items-center">
-                    <search></search>
-                </div>
-                <div class="flex felx-1">
-                    <nav class="hidden lg:flex items-center justify-end text-lg">
+            <div class="fixed top-0 left-0 w-full z-40 bg-orange-700 md:static  md:px-4 max-w-6xl mx-auto md:py-4 lg:px-8">
+                <div class="flex items-center w-full">
+                    <div class="flex felx-1 items-center">
+                        <a href="/" title="Georgi home" class="inline-flex items-center">
+                            <img class="h-8 md:h-10 mr-3 text-gray-100" src="/assets/img/logo-2.svg"
+                                alt="Georgi logo" />
+                        </a>
+                    </div>
+    
+                    <div id="vue-search" class="flex flex-auto justify-end items-center">
+                        <search></search>
+                    </div>
+                    <div class="flex flex-1">
+                        <nav class="hidden lg:flex items-center justify-end text-lg">
     <a title="Georgi Blog" href="/blog"
         class="ml-6 text-gray-200 hover:text-blue-100 ">
         Blog
@@ -67,23 +71,28 @@
         Contact
     </a>
 </nav>
-
-                    <button class="flex justify-center items-center bg-blue-500 border border-blue-500 h-10 px-5 rounded-full lg:hidden focus:outline-none"
+    
+                        <button class="flex justify-center items-center h-12 px-5 rounded-full lg:hidden focus:outline-none"
     onclick="navMenu.toggle()"
 >
     <svg id="js-nav-menu-show" xmlns="http://www.w3.org/2000/svg"
-        class="fill-current text-white h-9 w-4" viewBox="0 0 32 32"
+        class="fill-current text-white h-9 w-8" viewBox="0 0 32 32"
     >
         <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
     </svg>
 
-    <svg id="js-nav-menu-hide" xmlns="http://www.w3.org/2000/svg"
-        class="hidden fill-current text-white h-9 w-4" viewBox="0 0 36 30"
+    <svg id="js-nav-menu-hide1" xmlns="http://www.w3.org/2000/svg"
+        class="hidden fill-current text-white h-9 w-8" viewBox="0 0 36 30"
     >
         <polygon points="32.8,4.4 28.6,0.2 18,10.8 7.4,0.2 3.2,4.4 13.8,15 3.2,25.6 7.4,29.8 18,19.2 28.6,29.8 32.8,25.6 22.2,15 "/>
     </svg>
+    <!-- External Link icon by Icons8 -->
+<svg id="js-nav-menu-hide"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 1792 1896.0833" class="hidden fill-current text-white h-9 w-8" >
+    <path d="M1408 928v320q0 119-84.5 203.5T1120 1536H288q-119 0-203.5-84.5T0 1248V416q0-119 84.5-203.5T288 128h704q14 0 23 9t9 23v64q0 14-9 23t-23 9H288q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113V928q0-14 9-23t23-9h64q14 0 23 9t9 23zm384-864v512q0 26-19 45t-45 19-45-19l-176-176-652 652q-10 10-23 10t-23-10L695 983q-10-10-10-23t10-23l652-652-176-176q-19-19-19-45t19-45 45-19h512q26 0 45 19t19 45z"></path>
+</svg>
 </button>
 
+                    </div>
                 </div>
             </div>
             <div>
@@ -91,7 +100,7 @@
         </div>
     </header>
 
-    <nav id="js-nav-menu" class="nav-menu hidden fixed pt-24 z-30 w-full md:static md:pt-4 lg:hidden">
+    <nav id="js-nav-menu" class="nav-menu hidden fixed mt-16 z-30 w-full md:static md:pt-4 lg:hidden">
     <ul class="list-reset my-0">
         <li class="pl-4">
             <a
@@ -117,7 +126,7 @@
     </ul>
 </nav>
 
-    <main role="main" class="flex-auto w-full">
+    <main role="main" class="w-full overflow-hidden flex-auto">
                     <img src="/assets/img/post-cover-image-1.png" alt="Mailchimp Newsletters cover image" class="mb-2">
     
     <h1 class="leading-none mb-2">Mailchimp Newsletters</h1>
@@ -172,7 +181,7 @@
     </nav>
     </main>
 
-    <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
+    <footer class="w-full overflow-hidden bg-white text-center text-sm mt-12 py-4" role="contentinfo">
         <ul class="flex flex-col md:flex-row justify-center list-reset">
             <li class="md:mr-2">
                 &copy; Georgi</a> 2019.
@@ -183,7 +192,7 @@
         </ul>
     </footer>
 
-    <script src="/assets/build/js/main.js?id=e192acdd1f20a8e67630"></script>
+    <script src="/assets/build/js/main.js?id=a4aae473dda2480d7e36"></script>
 
     <script>
     const navMenu = {

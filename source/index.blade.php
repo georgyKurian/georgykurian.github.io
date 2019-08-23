@@ -24,9 +24,18 @@
 </div>
 
 <!-- Timeline -->
-@component('_components.timeline')
-@endcomponent
+<div class="flex whiteGradient">
+    <div class="container flex flex-wrap justify-center max-w-5xl mx-auto py-20 px-6 md:py-16 text-gray-800 ">
+        @foreach ($page->getjsondata('my_work_experience.json') as $experience)
+        @component('_components.timeline',[
+        'experience' => $experience
+        ])
+        @endcomponent
+        @endforeach
+    </div>
+</div>
 
+<!-- Projects -->
 <div class="flex whiteGradient">
     <div class="container flex flex-wrap max-w-5xl mx-auto py-20 px-6 md:py-16 text-gray-800">
         @foreach ($page->getjsondata('my_projects.json') as $project)

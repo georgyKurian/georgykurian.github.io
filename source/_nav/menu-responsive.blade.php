@@ -1,4 +1,4 @@
-<nav id="js-nav-menu" class="nav-menu hidden fixed pt-24 z-30 w-full md:static md:pt-4 lg:hidden">
+<nav id="js-nav-menu" class="nav-menu hidden fixed mt-16 z-30 w-full md:static md:pt-4 lg:hidden">
     <ul class="list-reset my-0">
         <li class="pl-4">
             <a

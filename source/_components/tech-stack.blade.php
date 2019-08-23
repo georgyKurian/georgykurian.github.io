@@ -8,9 +8,9 @@
                 @foreach ($skills as $skill)
                     <div class="mb-2">
                         <div class="py-1 text-xs font-semibold">{{ $skill['name'] }}
-                            @if ($skill['frameworks'])
+                            @isset ($skill['frameworks'])
                             - {{ implode($skill['frameworks'],', ') }}
-                            @endif
+                            @endisset
                         </div>
                         <div class="w-full bg-gray-700 h-1 rounded">
                             <div class="w-full bg-green-500 h-1" style="width:{{ $skill['percentage'] }}"></div>
