@@ -1,6 +1,6 @@
 @foreach ($experience as $index => $each_experience)
-<div class="flex  w-full">
-    <div class="w-1/2"></div>
+<div class="flex justify-center w-full">
+    <div class="md:w-1/3"></div>
     <div class="flex flex-col items-center">
         <div class="h-3 w-1 {{ !$loop->first?'bg-blue-500':'' }}">&nbsp;</div>
         <div class="rounded-full h-4 w-4 border-4 border-blue-500 {{ $loop->first ? 'bg-blue-500':'' }}"></div>

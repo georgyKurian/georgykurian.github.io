@@ -43,7 +43,7 @@
         <div class="relative">
             <div class="fixed top-0 left-0 w-full z-40 lightBlueGradient md:static  md:px-4 md:py-4 lg:px-8">
                 <div class="flex items-center w-full max-w-5xl mx-auto ">
-                    <div class="flex felx-1 items-center">
+                    <div class="flex felx-1 items-center pl-5">
                         <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
                             <img class="h-8 md:h-10 mr-3 text-gray-100" src="/assets/img/logo-2.svg"
                                 alt="{{ $page->siteName }} logo" />
@@ -53,7 +53,7 @@
                     <div id="vue-search" class="flex flex-auto justify-end items-center">
                         <search></search>
                     </div>
-                    <div class="flex flex-1">
+                    <div class="flex flex-row-reverse md:flex-row">
                         @include('_nav.menu')
     
                         @include('_nav.menu-toggle')

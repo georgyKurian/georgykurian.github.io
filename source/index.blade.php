@@ -5,12 +5,7 @@
     <div class="flex justify-around container mx-auto my-48">
         <div class="flex-1">
             <h1 class="text-center text-gray-100 font-normal">Hi, I’m Georgi. Nice to meet you!</h1>
-            <p class="text-center text-gray-200">Since beginning my journey as a freelance designer nearly 8 years ago,
-                I've done remote
-                work for agencies, consulted for startups, and collaborated with talented people to create digital
-                products
-                for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on
-                improving my chops one design problem at a time.</p>
+            <p class="text-center text-gray-200">I am developer who is ethusiatic about finding solution and performance optimization.</p>
         </div>
     </div>
     {{--  <div class="absolute bottom-0 inset-x-0 bg-cover bg-center h-56" style="background-image: url('/assets/img/hero-divider.svg')">&nbsp;</div> --}}
