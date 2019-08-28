@@ -6,7 +6,6 @@ module.exports = {
           'monospace',
         ],
       },
-
       lineHeight: {
         normal: '1.6',
         loose: '1.75',
@@ -22,6 +21,9 @@ module.exports = {
       },
       boxShadow: {
         'lg': '0 -1px 27px 0 rgba(0, 0, 0, 0.04), 0 4px 15px 0 rgba(0, 0, 0, 0.08)',
+      },
+      colors:{
+        primaryColor: '#4299e1',
       }
     },
     fontSize: {

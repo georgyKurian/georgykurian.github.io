@@ -1,5 +1,5 @@
 <div class="w-full m-2 bg-white flex flex-wrap shadow-lg rounded-lg border border-gray-300 overflow-hidden">
-    <div class="md:w-2/12 h-100 bg-orange-700"></div>
+    <div class="md:w-2/12 h-100 bg-primaryColor"></div>
     <div class="w-full md:w-9/12 px-3 py-3 flex border-r-2 border-gray-100">
         <div class="">
             <div class="font-bold text-xl mb-2">{{ $project['title'] }}</div>
@@ -17,8 +17,8 @@
     <div class="w-full md:w-1/12 flex md:flex-col md:border-l-2 border-gray-200 bg-gray-100">
         <div class="h-16 flex justify-center">
             @isset($project['git_url'])
-            <a href="{{$project['git_url']}}" target="_blank" class="m-2 p-2 block">
-                <svg class="text-gray-500 hover:text-blue-800 fill-current stroke-current h-9 w-8" height="56.693px" id="Layer_1" version="1.1"
+            <a href="{{$project['git_url']}}" target="_blank" title="Open Github" class="m-2 p-2 block">
+                <svg class="text-gray-500 hover:text-primaryColor fill-current stroke-current h-9 w-8" height="56.693px" id="Layer_1" version="1.1"
                     viewBox="-1163 1657.697 56.693 56.693" width="56.693px" xml:space="preserve"
                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g>
@@ -47,10 +47,10 @@
 
         <div class="h-16 flex justify-center">
             @isset($project['link'])
-            <a href="{{$project['link']}}" target="_blank" class="m-2 p-2 inline-block">
+            <a href="{{$project['link']}}" target="_blank" title="View project" class="m-2 p-2 inline-block">
                 <svg fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
                     stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"
-                    class="text-gray-500 hover:text-blue-800 stroke-current h-9 w-8">
+                    class="text-gray-500 hover:text-primaryColor stroke-current h-9 w-8">
                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
                     <polyline points="15 3 21 3 21 9" />
                     <line x1="10" x2="21" y1="14" y2="3" />

@@ -33,7 +33,7 @@
   "front-end": [
     {
       "name": "Vue",
-      "frameworks": [],
+      "frameworks": null,
       "percentage": "70%"
     },
     {

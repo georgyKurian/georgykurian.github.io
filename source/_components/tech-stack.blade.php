@@ -13,7 +13,7 @@
                             @endisset
                         </div>
                         <div class="w-full bg-gray-700 h-1 rounded">
-                            <div class="w-full bg-green-500 h-1" style="width:{{ $skill['percentage'] }}"></div>
+                            <div class="w-full bg-blue-500 h-1" style="width:{{ $skill['percentage'] }}"></div>
                         </div>
                     </div>
                 @endforeach

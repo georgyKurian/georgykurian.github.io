@@ -38,11 +38,11 @@
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 </head>
 
-<body class="flex flex-col justify-between bg-top bg-cover min-h-screen bg-orange-700 text-gray-800 leading-normal font-sans" style="background-image: url('/assets/img/low-poly41.svg')">
-    <header class="w-full overflow-hidden" role="banner" >
+<body class="flex flex-col justify-between min-h-screen text-gray-800 leading-normal font-sans" >
+    <header class="w-full bg-top bg-cover overflow-hidden lightBlueGradient" style="/*background-image: url('/assets/img/1974.svg')*/" role="banner" >
         <div class="relative">
-            <div class="fixed top-0 left-0 w-full z-40 bg-orange-700 md:static  md:px-4 max-w-6xl mx-auto md:py-4 lg:px-8">
-                <div class="flex items-center w-full">
+            <div class="fixed top-0 left-0 w-full z-40 lightBlueGradient md:static  md:px-4 md:py-4 lg:px-8">
+                <div class="flex items-center w-full max-w-5xl mx-auto ">
                     <div class="flex felx-1 items-center">
                         <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
                             <img class="h-8 md:h-10 mr-3 text-gray-100" src="/assets/img/logo-2.svg"
@@ -73,9 +73,9 @@
     </main>
 
     <footer class="w-full overflow-hidden border-t-2 bg-gray-800 text-gray-500 text-center pt-12 py-4" role="contentinfo">
-        <ul class="flex flex-col md:flex-row justify-center list-reset">
+        <ul class="flex flex-col  justify-center">
             <li class="text-xs">&copy;Georgi</a> {{ date('Y') }}</li>
-            <li></li>
+            <li class="text-xs"><a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by starline - www.freepik.com</a></li>
         </ul>
     </footer>
 
