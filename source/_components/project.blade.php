@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="w-full md:w-1/12 flex md:flex-col md:border-l-2 border-gray-200 bg-gray-100">
-        <div class="h-16 flex justify-center">
+        <div class="flex-1 flex justify-center items-center">
             @isset($project['git_url'])
             <a href="{{$project['git_url']}}" target="_blank" title="Open Github" class="m-2 p-2 block">
                 <svg class="text-gray-500 hover:text-primaryColor fill-current stroke-current h-9 w-8" height="56.693px" id="Layer_1" version="1.1"
@@ -45,7 +45,7 @@
             @endisset
         </div>
 
-        <div class="h-16 flex justify-center">
+        <div class="flex-1 flex justify-center items-center">
             @isset($project['link'])
             <a href="{{$project['link']}}" target="_blank" title="View project" class="m-2 p-2 inline-block">
                 <svg fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round"

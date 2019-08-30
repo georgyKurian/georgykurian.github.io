@@ -3,7 +3,9 @@
     <div class="md:w-1/3"></div>
     <div class="flex flex-col items-center">
         <div class="h-3 w-1 {{ !$loop->first?'bg-blue-500':'' }}">&nbsp;</div>
-        <div class="rounded-full h-4 w-4 border-4 border-blue-500 {{ $loop->first ? 'bg-blue-500':'' }}"></div>
+        <div class="rounded-full h-8 w-8 p-1 border-4 border-blue-500 bg-blue-500">
+            <img src="assets/img/logos/briefcase.svg" alt="Work">
+        </div>
         <div class="flex-1 w-1 {{ !$loop->last ? 'bg-blue-500':'' }}">&nbsp;</div>
     </div>
     <div class="flex pl-3 pb-10 w-2/3">
