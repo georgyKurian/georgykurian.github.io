@@ -46,7 +46,7 @@
         </div>
 
         <div class="flex-1 flex justify-center items-center">
-            @isset($project['link'])
+            @empty(!$project['link'])
             <a href="{{$project['link']}}" target="_blank" title="View project" class="m-2 p-2 inline-block">
                 <svg fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
                     stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@
                     <line x1="10" x2="21" y1="14" y2="3" />
                 </svg>
             </a>
-            @endisset
+            @endempty
         </div>
     </div>
 </div>

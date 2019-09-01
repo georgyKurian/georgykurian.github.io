@@ -11,6 +11,10 @@
     {
       "name": "MongoDB",
       "percentage": "50%"
+    },
+    {
+      "name": "SQLite",
+      "percentage": "50%"
     }
   ],
   "server-side": [
@@ -42,10 +46,15 @@
       "percentage": "60%"
     },
     {
-      "name": "Webpack"
+      "name": "Apcahe cordova",
+      "percentage": "60%"
+    },
+    {
+      "name": "Webpack",
+      "percentage": "60%"
     }
   ],
-  "tools": [
+  "Dev - tools": [
     {
       "name": "GIT",
       "percentage": "70%"
@@ -75,6 +84,12 @@
     {
       "name": "Google API",
       "percentage": "60%"
+    }
+  ],
+  "others":[
+    {
+      "name":"Docker",
+      "percentage":"50%"
     }
   ]
 }

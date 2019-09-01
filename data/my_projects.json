@@ -1,23 +1,9 @@
 [
   {
-    "title": "Project 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    "techs": ["laravel", "vue"],
-    "git_url": " https://georgikurian.github.com",
-    "link": "https://dfdfdf"
-  },
-  {
-    "title": "Project 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    "techs": ["laravel", "vue"],
-    "git_url": " https://georgikurian.github.com",
-    "link": "https://dfdfdf"
-  },
-  {
-    "title": "Project 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    "techs": ["laravel", "vue"],
-    "git_url": " https://georgikurian.github.com",
-    "link": "https://dfdfdf"
+    "title": "Todo App (Mern)",
+    "description": "A simple todo app for exploring technologies.",
+    "techs": ["nodejs", "react", "expressjs", "mongodb"],
+    "git_url": "https://github.com/georgyKurian/mern-todo-app",
+    "link": ""
   }
 ]
