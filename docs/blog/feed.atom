@@ -3,7 +3,7 @@
     <title>Georgi</title>
     <link href="https://georgi.ca" />
     <link type="application/atom+xml" rel="self" href="https://georgi.ca/blog/feed.atom" />
-    <updated>2019-09-01T02:23:04+00:00</updated>
+    <updated>2020-02-27T02:59:50+00:00</updated>
     <id>https://georgi.ca/blog/feed.atom</id>
     <author>
         <name>Georgi Kurian</name>
@@ -17,11 +17,27 @@
     <author>
         <name>Georgi Kurian</name>
     </author>
-    <summary type="html">This is a starter template for creating a beautiful, customizable blog with minimal effort. You’ll only have to change a few settings and you’re ready to go.
+    <summary type="html">
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+This is a starter template for creating a beautiful, customizable blog with minimal effort. You’ll only have to change a few settings and you’re ready to go.
 
 As with all Jigsaw sites, configuration settings can be found in &lt;code&gt;config.php&lt;/code&gt;;......</summary>
     <content type="html"><![CDATA[
-        <p>This is a starter template for creating a beautiful, customizable blog with minimal effort. You’ll only have to change a few settings and you’re ready to go.</p>
+        
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+<p>This is a starter template for creating a beautiful, customizable blog with minimal effort. You’ll only have to change a few settings and you’re ready to go.</p>
 <h2>Configuration</h2>
 <p>As with all Jigsaw sites, configuration settings can be found in <code>config.php</code>; you can update the variables in that file with settings specific to your site. You can also add new configuration variables there to use across your site; take a look at the <a href="http://jigsaw.tighten.co/docs/site-variables/">Jigsaw documentation</a> to learn more.</p>
 <pre><code class="language-php">// config.php
@@ -72,9 +88,17 @@ npm run dev</code></pre>    ]]></content>
     <author>
         <name>Georgi Kurian</name>
     </author>
-    <summary type="html">This starter template comes pre-loaded with Tailwind CSS, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS. There are also a few base Sass files in the &lt;code&gt;/source/_assets/sass&lt;/code&gt; folder,......</summary>
+    <summary type="html">
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+This starter template comes pre-loaded with Tailwind CSS, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS. There are also a few base Sass files in the &lt;code&gt;/source/_assets/sass&lt;/code&gt; folder,......</summary>
     <content type="html"><![CDATA[
-        <p>This starter template comes pre-loaded with <a href="https://tailwindcss.com">Tailwind CSS</a>, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS. There are also a few base Sass files in the <code>/source/_assets/sass</code> folder, set up with the expectation that you can add any custom CSS into <code>_blog.scss</code>.</p>
+        
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+<p>This starter template comes pre-loaded with <a href="https://tailwindcss.com">Tailwind CSS</a>, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS. There are also a few base Sass files in the <code>/source/_assets/sass</code> folder, set up with the expectation that you can add any custom CSS into <code>_blog.scss</code>.</p>
 <blockquote>
 <p>You can also re-work the architecture of the Sass files any way you’d like; just make sure to keep the <code>@tailwind</code> references in your final <code>main.scss</code> file.</p>
 </blockquote>
@@ -130,12 +154,20 @@ npm run dev</code></pre>    ]]></content>
     <author>
         <name>Georgi Kurian</name>
     </author>
-    <summary type="html">This starter template includes a custom 404 Not Found error page, located at &lt;code&gt;/source/404.blade.php&lt;/code&gt;. To preview the 404 page, you can visit &lt;code&gt;/404&lt;/code&gt; in your browser.
+    <summary type="html">
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+This starter template includes a custom 404 Not Found error page, located at &lt;code&gt;/source/404.blade.php&lt;/code&gt;. To preview the 404 page, you can visit &lt;code&gt;/404&lt;/code&gt; in your browser.
 
 
 Depending on where your site is hosted, you may need to configure......</summary>
     <content type="html"><![CDATA[
-        <p>This starter template includes a custom <strong>404 Not Found</strong> error page, located at <code>/source/404.blade.php</code>. <a href="/404">To preview the 404 page</a>, you can visit <code>/404</code> in your browser.</p>
+        
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+
+Notice: Trying to access array offset on value of type null in E:\GitHub\e-commerce\my-website\vendor\erusev\parsedown-extra\ParsedownExtra.php on line 241
+<p>This starter template includes a custom <strong>404 Not Found</strong> error page, located at <code>/source/404.blade.php</code>. <a href="/404">To preview the 404 page</a>, you can visit <code>/404</code> in your browser.</p>
 <pre><code class="language-html">&lt;!-- source/404.blade.php --&gt;
 
 @extends('_layouts.master')

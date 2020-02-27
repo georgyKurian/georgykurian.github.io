@@ -9,7 +9,7 @@
                     <div class="mb-2">
                         <div class="py-1 text-xs font-semibold">{{ $skill['name'] }}
                             @isset ($skill['frameworks'])
-                            - {{ implode($skill['frameworks'],', ') }}
+                            - {{ implode(', ',$skill['frameworks']) }}
                             @endisset
                         </div>
                         <div class="w-full bg-gray-700 h-1 rounded">
