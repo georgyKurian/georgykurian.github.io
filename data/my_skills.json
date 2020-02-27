@@ -20,30 +20,46 @@
   "server-side": [
     {
       "name": "PHP",
-      "frameworks": ["Laravel", "Symfony", "Wordpress"],
+      "frameworks": [
+        "Laravel",
+        "Symfony",
+        "Wordpress"
+      ],
       "percentage": "95%"
     },
     {
       "name": "Node",
-      "frameworks": ["Express.js"],
+      "frameworks": [
+        "Express.js"
+      ],
       "percentage": "65%"
     },
     {
       "name": "Java",
-      "frameworks": ["Grails", "Hibernate"],
+      "frameworks": [
+        "Grails",
+        "Hibernate"
+      ],
       "percentage": "70%"
     }
   ],
   "front-end": [
     {
-      "name": "Vue",
+      "name": "Vue.js",
       "frameworks": null,
       "percentage": "70%"
     },
     {
-      "name": "React",
-      "frameworks": ["Next.js"],
-      "percentage": "60%"
+      "name": "React.js",
+      "frameworks": [
+        "Next.js"
+      ],
+      "percentage": "80%"
+    },
+    {
+      "name": "Redux.js",
+      "frameworks": [],
+      "percentage": "80%"
     },
     {
       "name": "Apcahe cordova",
@@ -51,17 +67,17 @@
     },
     {
       "name": "Webpack",
-      "percentage": "60%"
+      "percentage": "80%"
     }
   ],
   "Dev - tools": [
     {
       "name": "GIT",
-      "percentage": "70%"
+      "percentage": "90%"
     },
     {
       "name": "VS Code",
-      "percentage": "60%"
+      "percentage": "80%"
     },
     {
       "name": "Postman",
@@ -86,10 +102,10 @@
       "percentage": "60%"
     }
   ],
-  "others":[
+  "others": [
     {
-      "name":"Docker",
-      "percentage":"50%"
+      "name": "Docker",
+      "percentage": "50%"
     }
   ]
 }
