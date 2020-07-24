@@ -10,13 +10,13 @@
     </div>
     <div class="flex pl-3 pb-10 w-2/3">
         <div>
-            <div class="text-gray-700">
+            <article class="text-gray-700">
                 <a href="https://www.lambtoncollege.ca/Applied-Research/" target="_blank">
                     <h4 class="text-base m-0">{{ $each_experience['company_name']}}</h4>
                 </a>
-            <span class="text-xs">{{ $each_experience['timeline'] }}</span>
+                <time class="text-xs">{{ $each_experience['timeline'] }}</time>
                 <p class="m-0 text-xs">{{ $each_experience['position'] }}</p>
-            </div>
+            </article>
         </div>
     </div>
 

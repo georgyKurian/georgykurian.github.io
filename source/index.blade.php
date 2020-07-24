@@ -21,7 +21,7 @@
 @section('body')
 
 <!-- Timeline -->
-<div class="flex whiteGradient border-b-2 border-gray-400 py-16">
+<section class="flex whiteGradient border-b-2 border-gray-400 py-16">
     <div class="container flex flex-wrap justify-center max-w-5xl mx-auto px-6 md:py-16 text-gray-800 ">
         <h2 class="text-center mb-12">Experience</h2>
         @component('_components.timeline',[
@@ -29,10 +29,10 @@
         ])
         @endcomponent
     </div>
-</div>
+</section>
 
 <!-- Projects -->
-<div class="flex whiteGradient border-b-2 border-gray-400 py-16">
+<section class="flex whiteGradient border-b-2 border-gray-400 py-16">
     <div class="container flex flex-wrap justify-center max-w-5xl mx-auto px-6 md:py-16 text-gray-800 ">
         <h2 class="text-center mb-12">Projects</h2>
         @foreach ($page->getjsondata('my_projects.json') as $project)
@@ -42,10 +42,10 @@
         @endcomponent
         @endforeach
     </div>
-</div>
+</section>
 
 <!-- Skill -->
-<div class="flex whiteGradient border-b-2 border-gray-400 py-16">
+<section class="flex whiteGradient border-b-2 border-gray-400 py-16">
     <div class="container flex flex-wrap justify-center max-w-5xl mx-auto px-6 md:py-16 text-gray-800 ">
         <h2 class="text-center mb-12 w-full">Skills</h2>
         @foreach ($page->getjsondata('my_skills.json') as $key => $item)
@@ -56,6 +56,6 @@
         @endcomponent
         @endforeach
     </div>
-</div>
+</section>
 
 @stop

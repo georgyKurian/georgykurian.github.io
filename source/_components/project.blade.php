@@ -1,10 +1,12 @@
-<div class="w-full m-2 bg-white flex flex-wrap shadow-lg rounded-lg border border-gray-300 overflow-hidden">
-    <div class="flex items-center md:w-2/12 h-100 bg-primaryColor">
-        @isset ($project['image'])
-        <img loading="lazy" class="w-full h-full object-fill" src="/assets/images/{{ $project['image']['file']}}" />
-        @endisset
+<article class="w-full m-2 bg-white flex flex-wrap shadow-lg rounded-lg border border-gray-300 overflow-hidden">
+    <div class="relative flex items-center md:w-2/12 bg-primaryColor border-r-2 border-gray-200">
+        <div style="padding-bottom:100%;">
+            @isset ($project['image'])
+            <img loading="lazy" class="absolute inset-0 w-full h-full object-cover" src="/assets/images/{{ $project['image']['file']}}" />
+            @endisset
+        </div>
     </div>
-    <div class="w-full md:w-9/12 px-3 py-3 flex border-r-2 border-gray-100">
+    <div class="w-full md:w-9/12 px-3 py-3 flex md:border-l-2 border-r-2 border-gray-100">
         <div class="">
             <div class="font-bold text-xl mb-2">{{ $project['title'] }}</div>
             <p class="text-gray-700 text-base">{{ $project['description']}}</p>
@@ -63,4 +65,4 @@
             @endempty
         </div>
     </div>
-</div>
+</article>
